@@ -17,7 +17,7 @@ while (true) {
         music.playSoundEffect(music.createSoundEffect(WaveShape.Sine, 1600, 4610, 255, 0, 50, SoundExpressionEffect.None, InterpolationCurve.Curve), SoundExpressionPlayMode.UntilDone)
         game.addScore(1)
     } else if (hole.get(LedSpriteProperty.Y) == 4) {
-        basic.pause(100)
+        basic.pause(300)
         hole.delete()
         music.playSoundEffect(music.createSoundEffect(WaveShape.Sine, 200, 600, 255, 0, 15, SoundExpressionEffect.None, InterpolationCurve.Linear), SoundExpressionPlayMode.UntilDone)
         game.removeLife(1)
